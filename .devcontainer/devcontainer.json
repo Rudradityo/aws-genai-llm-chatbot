@@ -12,15 +12,6 @@
       "version": "18",
       "nvmVersion": "latest"
     },
-    "ghcr.io/devcontainers-contrib/features/aws-cdk:2": {
-      "version": "latest"
-    },
-    "ghcr.io/devcontainers/features/aws-cli:1": {
-      "version": "latest"
-    },
-    "ghcr.io/tomharvey/devcontainer-features/aws-sso-util:1": {
-      "version": "latest"
-    },
     "ghcr.io/devcontainers/features/docker-in-docker:2": {
       "moby": true,
       "installDockerBuildx": true,

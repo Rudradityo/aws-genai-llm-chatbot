@@ -127,16 +127,16 @@ export default function ManageApplication() {
         errors.roles = "Role is required";
       }
 
-      if (form.systemPrompt.length > 256) {
-        errors.systemPrompt = "System prompt must be less than 256 characters";
+      if (form.systemPrompt.length > 7000) {
+        errors.systemPrompt = "System prompt must be less than or equal to 7000 characters";
       }
-      if (form.systemPromptRag.length > 256) {
+      if (form.systemPromptRag.length > 7000) {
         errors.systemPromptRag =
-          "System prompt with workspace must be less than 256 characters";
+          "System prompt with workspace must be less than or equal to 7000 characters";
       }
       if (form.condenseSystemPrompt.length > 256) {
         errors.condenseSystemPrompt =
-          "Condense system prompt must be less than 256 characters";
+          "Condense system prompt must be less than or equal to 256 characters";
       }
       if (!customPromptRegex.test(form.systemPrompt)) {
         errors.systemPrompt = "System prompt cannot have special characters";

@@ -1,0 +1,6 @@
+node_modules
+dist/
+
+# AWS Amplify / GraphQL generated files
+lib/user-interface/react-app/src/API.ts
+lib/user-interface/react-app/src/graphql/
